@@ -1,0 +1,183 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
+body {
+    background: #2E9CE6;
+    padding: 3em;
+    font-family: 'Raleway', 'Arial';
+    color: #fff;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 2em 0;
+}
+ul li {
+    display: inline;
+    margin-right:30px;
+}
+ul li a {
+    font-size: 1.5em;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* === Personalização do Menu Principal */
+
+.menu_accordion {
+    padding-top: 62px;
+  }
+  
+  .menu_accordion .panel-title a { 
+    color: #000;
+    text-decoration: none;
+    display: block;
+    outline: none;
+    padding: 18px 0 18px 10px;
+    font-size: 12px; 
+    outline: none;
+    /* text-transform: uppercase; */
+    font-weight: normal;
+    line-height: 15px;
+  }
+  
+  
+  .menu_accordion .panel-title a:hover { 
+    background: #fbfbfb;
+    color: #014687;
+    display: block;
+    font-weight: bold;
+  }
+  .panel-group .panel-open .panel-heading .panel-title a{
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: block;
+    background: #f2f2f2;
+    color: #014687;
+    display: block;
+    font-weight: bold;
+  }
+  
+  .menu_accordion .panel-default>.panel-heading {
+    text-transform: normal;
+    color: #015694;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  
+    background-color: #f5f5f5;
+    border-bottom: 1px solid rgba(80,78,78,0.2);
+  }
+  
+  
+  
+  
+  
+  .menu_accordion .panel-default>.panel-heading:hover i , .panel-group .panel-open .panel-heading .panel-title i{
+    color: #f78b1f;
+  }
+  
+  .menu_accordion .panel-default {
+    margin-top: 0px;
+  }
+  
+  .menu_accordion a i {
+    font-size: 14px;
+    padding-right: 8px;
+    color: #B4BCC2;
+    margin-left: 0px;
+  }
+  
+  /*.menu_accordion li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }*/
+  
+  .menu_accordion .panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 0px;
+    border: none;
+  }
+  
+  .menu_accordion .panel-heading {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  
+  .menu_accordion .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: none;
+    border: 0px;
+    padding: 0px;
+  }
+  
+  .menu_accordion ul.ul_accordion li {
+    color: #005594;
+  }
+  
+  .menu_accordion ul.ul_accordion {
+   margin-bottom: 0px;
+      
+  }
+  
+  .menu_accordion ul.ul_accordion li a {
+    color: #105f9b;
+    display: block;
+    background: #fff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+  
+  .menu_accordion ul.list-unstyled {
+    /*padding-left: 20px;*/
+  }
+  
+  .menu_accordion .panel-title a.active i {
+    color: #f78b1f;
+  }
+  
+  ul.ul_accordion li a.active,
+  ul.ul_accordion li a:active,
+  ul.ul_accordion li a:hover,
+  ul.ul_accordion li a:focus {
+    color: #105f9b;
+    display: block;
+    background: #f9f9f9;
+    font-weight: bold;
+    border-right: 2px solid #f6bf85;
+    text-decoration: none;
+  }
+  
+  ul.ul_accordion li a i {
+    font-size: 14px;
+    padding-right: 8px;
+    color: #B4BCC2;
+    /*margin-left: -10px;*/
+  }
+  
+  ul.ul_accordion li a:hover i,
+  ul.ul_accordion li a:focus i {
+    color: #f78b1f;
+  }
+  
+  ul.ul_accordion li a.active i {
+    color: #f78b1f;
+  }
+  
+  ul.sub li a.active i {
+    color: #f78b1f;
+  }
+  
+  .panel-group .panel+.panel {
+    margin-top: 1px;
+  }
+  
